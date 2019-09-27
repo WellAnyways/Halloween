@@ -9,7 +9,7 @@ let bg_version = getUrlParameter('bg'),
     modalCloseButton = $('[data-videoModalClose]');
 
 //Scroll Anim init
-//AOS.init();
+AOS.init();
 
 
 //Update hero based on Variant
