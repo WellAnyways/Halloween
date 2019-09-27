@@ -1,0 +1,22 @@
+.lowerTagline {
+    align-items: center;
+    background-color: $rocketGreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+
+    h2 {
+        color: $white;
+        font-size: 3rem;
+        padding: 0.5rem;
+        @media (max-width: $phone) {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    button {
+        margin: 2rem;
+    }
+}

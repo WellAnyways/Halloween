@@ -1,0 +1,50 @@
+.tri-column {
+    background-color: $lightGray;
+    padding: 2rem 0;
+    width: 100%;
+
+    .icons {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: auto;
+        @media (max-width: $laptop) {
+            width: 100%;
+        }
+        @media (max-width: $tablet) {
+            flex-direction: column;
+        }
+
+        div {
+            margin: 3rem;
+            text-align: center;
+            @media (max-width: $laptop) {
+                margin: 2rem;
+            }
+
+            h5 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                color: $gray;
+                font-size: 1.2rem;
+                font-style: italic;
+                font-weight: normal;
+                line-height: 1.8rem;
+                width: 100%;
+                @media (max-width: $tablet) {
+                    margin: auto;
+                    width: 60%;
+                }
+                @media (max-width: $tablet) {
+                    margin: auto;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

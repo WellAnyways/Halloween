@@ -1,0 +1,88 @@
+// Refinance Buying
+.refinance-guide {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    @media (max-width: $tablet) {
+        flex-direction: column;
+    }
+
+    .left {
+        flex: 1;
+        margin: 6rem;
+        @media (max-width: $tablet) {
+            margin: 2rem;
+        }
+
+        h3 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            @media (max-width: $laptop) {
+                font-size: 2.5rem;
+            }
+        }
+
+        h4 {
+            color: $gray;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            width: 60%;
+            @media (max-width: $laptop) {
+                width: 100%;
+            }
+            @media (max-width: $tablet) {
+                margin: auto;
+                text-align: left;
+                width: 100%;
+            }
+        }
+
+        p {
+            color: $black;
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            width: 70%;
+            @media (max-width: $laptop) {
+                width: 100%;
+            }
+            @media (max-width: $tablet) {
+                width: 100%;
+                margin: 1rem auto;
+            }
+        }
+
+        a {
+            margin-top: 2rem;
+        }
+    }
+
+    .right {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        margin: 4rem;
+        @media (max-width: $laptop) {
+            flex: 2;
+        }
+        @media (max-width: $small-laptop) {
+            flex: 1;
+        }
+        @media (max-width: $tablet) {
+            flex: 1;
+            margin: 0;
+        }
+
+        img {
+            border-radius: 10px;
+            width: 80%;
+            @media (max-width: $tablet) {
+                width: 90%;
+            }
+        }
+    }
+}
