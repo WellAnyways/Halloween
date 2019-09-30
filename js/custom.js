@@ -23,6 +23,12 @@ switch(bg_version) {
   case '3':
     $(hero).addClass('background-v3');
   break;
+  case '4':
+    $(hero).addClass('background-v4');
+  break;
+  case '5':
+    $(hero).addClass('background-v5');
+  break;
   default:
     $(hero).addClass('background-v3');
 }
